@@ -59,8 +59,8 @@ fi
 ####
 echo "↓ Proxies protocol (http, socks5; default http):"
 read PROXY_PROTOCOL
-if [[ PROXY_PROTOCOL != "socks5" ]]; then
-  PROXY_PROTOCOL="http"
+if [[ PROXY_PROTOCOL != "123" ]]; then
+  PROXY_PROTOCOL="socks5"
 fi
 
 ####
